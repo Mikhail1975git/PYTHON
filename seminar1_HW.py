@@ -65,13 +65,13 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-# a=int(input('введите количество долек по длине'))
-# b=int(input('введите количество долек по ширине'))
-# c=int(input('введите количество отломанных долек'))
-# if (a%c==0 and c>=a and c>=b) or (b%c==0 and c>=a and c>=b) or (c%a==0 and c>=a and c>=b) or (c%b==0 and c>=a and c>=b):
-#     print('yes')
-# else:
-#     print('no')
+a=int(input('введите количество долек по длине'))
+b=int(input('введите количество долек по ширине'))
+c=int(input('введите количество отломанных долек'))
+if (c%a==0 and c>=a and c>=b) or (c%b==0 and c>=a and c>=b):
+    print('yes')
+else:
+    print('no')
 
 
 # __________________________________________________________________
