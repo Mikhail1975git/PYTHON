@@ -56,26 +56,26 @@
 # Позиции хранятся в файле file.txt в одной строке одно число.
 # Реализуйте алгоритм перемешивания списка.
 
-n = int(input('введите число')) 
-M=[]
-x=0
-import random
-while x<n:
-    M.append(random.randint(-n,n))
-    x=x+1
-print(M)
+# n = int(input('введите число')) 
+# M=[]
+# x=0
+# import random
+# while x<n:
+#     M.append(random.randint(-n,n))
+#     x=x+1
+# print(M)
 
 
-x = open('position.txt','r')
-a=x.readline()
-b=x.readline(2)
-proizvedenie=M[int(a)]*M[int(b)]
-print('позиция списка №1 =', a)
-print('позиция списка №2 =', b)
-print('произведение по заданным позициям списка =', proizvedenie)
+# x = open('position.txt','r')
+# a=x.readline()
+# b=x.readline(2)
+# proizvedenie=M[int(a)]*M[int(b)]
+# print('позиция списка №1 =', a)
+# print('позиция списка №2 =', b)
+# print('произведение по заданным позициям списка =', proizvedenie)
 
-random.shuffle(M)
-print('перемешанный список -',M)
+# random.shuffle(M)
+# print('перемешанный список -',M)
 
 
 #_______________________________________________________
