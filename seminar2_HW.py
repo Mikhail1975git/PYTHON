@@ -10,6 +10,7 @@
 
 # N=str(input('введите вещественное число'))
 # N=N.replace('.','')
+# N=N.replace('-','')
 # i=0
 # total=0
 # while i<len(N):
